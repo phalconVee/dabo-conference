@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025 DABO Conference | Leveraging Technology as a Catalyst for Growth</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/icons/favicon-1.png">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css">
+    
+    <!-- Optima Font -->
+    <style>
+        @font-face {
+            font-family: 'Optima';
+            src: url('assets/fonts/optima/Optima.woff2') format('woff2'),
+                 url('assets/fonts/optima/Optima.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+    </style>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom-bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+<div class="preloader">
+    <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+</div>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="assets/images/icons/dabo-logo.png" alt="DABO Conference Logo" height="50">
+            DABO Conference
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#speakers">Speakers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#schedule">Schedule</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sponsors">Sponsors</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-primary" href="https://lu.ma/l4dmomlt" target="_blank">Get Your Ticket</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<header class="hero-section">
+   
+    <div class="container">
+        <div class="row align-items-start">
+            <!-- Left Column -->
+            <div class="col-lg-6 hero-content" data-motion="fade-up">
+                <!-- Star Icons -->
+                <div class="star-icons mb-4">
+                    <img src="assets/images/2-star.svg" alt="Star" class="star-icon">
+                    <img src="assets/images/2-star.svg" alt="Star" class="star-icon">
+                </div>
+
+                <!-- Event Date -->
+                <div class="event-date mb-4">
+                    <h6 class="text-uppercase fw-bold">FRIDAY, APRIL 11, 2025 / CHARLOTTESVILLE, VIRGINIA</h6>
+                </div>
+
+                <!-- Main Title -->
+                <h2 class="hero-title fw-bold mb-3">
+                    2025 DABO Conference:
+                </h2>
+                <h2 class="hero-subtitle mb-5">
+                    Leveraging Technology as a<br>
+                    Catalyst for Growth
+                </h2>
+
+                <!-- Countdown Timer -->
+                <div class="countdown-timer">
+                    <div class="countdown-item">
+                        <div class="countdown-value">
+                            <span id="days">63</span>
+                            <img src="assets/images/icons/drum-icon.png" alt="Drum">
+                        </div>
+                        <div class="countdown-label">DAYS</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-value">
+                            <span id="hours">14</span>
+                            <img src="assets/images/icons/drum-icon.png" alt="Drum">
+                        </div>
+                        <div class="countdown-label">HOURS</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-value">
+                            <span id="minutes">13</span>
+                            <img src="assets/images/icons/drum-icon.png" alt="Drum">
+                        </div>
+                        <div class="countdown-label">MINUTES</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-value">
+                            <span id="seconds">25</span>
+                            <img src="assets/images/icons/drum-icon.png" alt="Drum">
+                        </div>
+                        <div class="countdown-label">SECONDS</div>
+                    </div>
+                </div>
+
+                <!-- CTA Buttons -->
+                <div class="hero-cta">
+                    <a class="btn btn-primary btn-lg" href="https://lu.ma/l4dmomlt" target="_blank">Get Tickets Here</a>
+                    <button class="btn btn-outline-alternate btn-lg" id="addToCalendar">Add To Calendar</button>
+                </div>
+            </div>
+
+             <!-- Right Column -->
+             <div class="col-lg-6">
+                <div class="hero-media-stack" data-motion="fade-up">
+                    <!-- Event Details Card -->
+                    <div class="floating-card event-details-card">
+                        <h5>Event Details</h5>
+                        <h3 class="mb-3 fw-bold">2025 DABO Conference:</h3>
+                        <div class="details-item">
+                            <i class="bi bi-geo-alt"></i>
+                            <span>CHARLOTTESVILLE, VIRGINIA</span>
+                        </div>
+                        <div class="details-item">
+                            <i class="bi bi-calendar"></i>
+                            <span>FRIDAY, APRIL 11, 2025</span>
+                        </div>
+                    </div>
+
+                    <!-- Speaker Image -->
+                    <div class="floating-card keynote-speaker-card">
+                        <!-- <img src="assets/images/speakers/obi.png" alt="Speaker" class="rounded-4"> -->
+                        <img src="assets/images/afrika-map.svg" alt="Speaker" class="rounded-4">
+                    </div>
+
+                    <!-- Feature Card -->
+                    <div class="floating-card feature-card">
+                        <div class="card-content">
+                            <h3>Africa's future: leveraging technology as a catalyst for growth</h3>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</header>
+
+
+<!-- About Conference Section -->
+<section id="about" class="about-section">
+    <div class="container" style="padding-top: 7rem; padding-bottom: 7rem;">
+        <div class="row gy-5">
+            <!-- Left Column -->
+            <div class="col-lg-6" data-motion="fade-right">
+
+                <div class="star-icons mb-4">
+                    <img src="assets/images/2-star.svg" alt="Star" class="star-icon">
+                </div>
+
+                <div class="about-content pe-lg-4">
+                    <h2 class="section-title mb-4">About Conference</h2>
+                    <p class="lead mb-4">
+                        The 2025 DABO Conference hosted by the Darden Africa Business Organization at UVA's Darden School of Business. The theme for this year is "Africa's Future: Leveraging Technology as a Catalyst for Growth," and we are bringing together an inspiring group of thought leaders to discuss the transformative role of innovation across various sectors in Africa.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature-item mb-4">
+                            <div class="d-flex align-items-center">
+                                <div class="feature-icon">
+                                    <i class="bi bi-globe-europe-africa"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Africa's Digital Economy</h4>
+                                    <p>Explore the latest trends and opportunities in Africa's rapidly evolving digital landscape.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feature-item mb-4">
+                            <div class="d-flex align-items-center">
+                                <div class="feature-icon">
+                                    <i class="bi bi-lightning-charge"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Energy & Sustainability</h4>
+                                    <p>Discover sustainable solutions and renewable energy innovations driving Africa's future.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="d-flex align-items-center">
+                                <div class="feature-icon">
+                                    <i class="bi bi-people"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Cross-Border Trade</h4>
+                                    <p>Learn about technological advances enabling seamless cross-border transactions.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="col-lg-6" data-motion="fade-left">
+                <div class="about-media position-relative">
+                    <!-- Pattern Elements -->
+                    <div class="about-floating-pattern"></div>
+                    
+
+                    <!-- Video Section -->
+                    <div class="video-wrapper rounded-4 overflow-hidden">
+                        <div class="ratio ratio-16x9">
+                            <img src="assets/images/conference-preview.jpg" alt="Conference Preview" class="video-thumbnail">
+                            <div class="video-overlay">
+                                <button class="play-button" data-bs-toggle="modal" data-bs-target="#aboutVideoModal" aria-label="Play Video">
+                                    <i class="bi bi-play-fill"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Video Modal -->
+                    <div class="modal fade" id="aboutVideoModal" tabindex="-1" aria-labelledby="aboutVideoModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down">
+                            <div class="modal-content bg-dark">
+                                <div class="modal-body p-0">
+                                    <button type="button" class="btn-close btn-close-white position-absolute end-0 top-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    <div class="ratio ratio-16x9">
+                                        <iframe id="aboutVideoFrame" src="" title="Conference Preview Video" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="video-reveal-pattern"></div>
+
+                    <!-- Info Card -->
+                    <!-- <div class="info-card pattern-bg">
+                        <div class="card rounded-4 border-0 shadow-lg">
+                            <div class="card-body p-4">
+                                <h3 class="card-title h4 mb-3">Leveraging Technology as a
+                                    Catalyst for Growth</h3>
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="info-icon me-2">
+                                        <i class="bi bi-calendar-event"></i>
+                                    </div>
+                                    <span>April 11, 2025</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="info-icon me-2">
+                                        <i class="bi bi-geo-alt"></i>
+                                    </div>
+                                    <span>Charlottesville, Virginia</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="orange-pattern"></div>
+</section>
+
+
+
+    <!-- Speakers Section -->
+<section id="speakers" class="speakers-section" data-motion="fade-up">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="row mb-5">
+            <div class="col-lg-6">
+                <h2 class="section-title mb-3">Meet Our Speakers</h2>
+                <p class="section-subtitle">This year's speakers are some of the most influential leaders across Africa, renowned for their ability to inspire and drive meaningful change. </p>
+            </div>
+        </div>
+
+        <!-- Stats Display -->
+        <div class="row mb-5">
+            <div class="col-12">
+                <div class="speakers-stats d-flex" data-motion="fade-up" data-delay="0.2">
+                    <div class="stat-box" data-motion="slide-right">
+                        <h3 class="stat-number">12</h3>
+                        <p class="stat-label">Speakers</p>
+                    </div>
+                    <div class="stat-box" data-motion="slide-left">
+                        <h3 class="stat-number">28</h3>
+                        <p class="stat-label">Topics</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Speakers Grid -->
+        <div class="speakers-grid mb-3">
+
+            <!-- Speaker Card 1 -->
+            <div class="speaker-wrapper" data-motion="fade-up" data-delay="0.3">
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="assets/images/speakers/gbenga-agboola.jpg" alt="Speaker" class="img-fluid">
+                        <div class="speaker-content">
+                            <div class="speaker-details">
+                                <h4 class="speaker-name">Gbenga Agboola</h4>
+                                <p class="speaker-role">CEO, Flutterwave</p>
+                                <p class="speaker-bio">A distinguished leader with extensive experience in governance and economic development. Known for transformative policies and fiscal responsibility.</p>
+                                <div class="speaker-social">
+                                    <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+                                    <a href="#" class="social-link"><i class="bi bi-twitter-x"></i></a>
+                                </div>
+                            </div>
+                            <div class="speaker-topics">
+                                <span class="topic-tag">Governance</span>
+                                <span class="topic-tag">Economy</span>
+                                <span class="topic-tag">Leadership</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Speaker Card 2 -->
+            <div class="speaker-wrapper" data-motion="fade-up" data-delay="0.4">
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="assets/images/speakers/christian-id-full.jpg" alt="Speaker" class="img-fluid">
+                        <div class="speaker-content">
+                            <div class="speaker-details">
+                                <h4 class="speaker-name">Christian Idiodi</h4>
+                                <p class="speaker-role">Founder & Partner, SVPG</p>
+                                <p class="speaker-bio">Pioneering entrepreneur revolutionizing electric vehicles, space exploration, and sustainable energy solutions globally.</p>
+                                <div class="speaker-social">
+                                    <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+                                    <a href="#" class="social-link"><i class="bi bi-twitter-x"></i></a>
+                                </div>
+                            </div>
+                            <div class="speaker-topics">
+                                <span class="topic-tag">Innovation</span>
+                                <span class="topic-tag">Technology</span>
+                                <span class="topic-tag">Sustainability</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Speaker Card 3 -->
+            <div class="speaker-wrapper" data-motion="fade-up" data-delay="0.5">
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="assets/images/speakers/christian-duffus.jpeg" alt="Speaker" class="img-fluid">
+                        <div class="speaker-content">
+                            <div class="speaker-details">
+                                <h4 class="speaker-name">Christian Duffus</h4>
+                                <p class="speaker-role">Founder, Fonbank</p>
+                                <p class="speaker-bio">Serial entrepreneur with a focus on emerging technologies and digital transformation in African markets.</p>
+                                <div class="speaker-social">
+                                    <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+                                    <a href="#" class="social-link"><i class="bi bi-twitter-x"></i></a>
+                                </div>
+                            </div>
+                            <div class="speaker-topics">
+                                <span class="topic-tag">Startups</span>
+                                <span class="topic-tag">Digital</span>
+                                <span class="topic-tag">Growth</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Speaker Card 4 -->
+            <div class="speaker-wrapper" data-motion="fade-up" data-delay="0.6">
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="assets/images/speakers/gbenga-agboola.jpg" alt="Speaker" class="img-fluid">
+                        <div class="speaker-content">
+                            <div class="speaker-details">
+                                <h4 class="speaker-name">Sarah Johnson</h4>
+                                <p class="speaker-role">Innovation Director</p>
+                                <p class="speaker-bio">Leading innovation strategies and digital transformation initiatives across multiple industries in Africa.</p>
+                                <div class="speaker-social">
+                                    <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+                                    <a href="#" class="social-link"><i class="bi bi-twitter-x"></i></a>
+                                </div>
+                            </div>
+                            <div class="speaker-topics">
+                                <span class="topic-tag">Innovation</span>
+                                <span class="topic-tag">Strategy</span>
+                                <span class="topic-tag">Digital</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="speakers-grid">
+            <!-- Speaker Card 1 -->
+            <div class="speaker-wrapper" data-motion="fade-up" data-delay="0.3">
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="assets/images/speakers/christian-id-full.jpg" alt="Speaker" class="img-fluid">
+                        <div class="speaker-content">
+                            <div class="speaker-details">
+                                <h4 class="speaker-name">Christian Idiodi</h4>
+                                <p class="speaker-role">Former Governor, Anambra State</p>
+                                <p class="speaker-bio">A distinguished leader with extensive experience in governance and economic development. Known for transformative policies and fiscal responsibility.</p>
+                                <div class="speaker-social">
+                                    <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+                                    <a href="#" class="social-link"><i class="bi bi-twitter-x"></i></a>
+                                </div>
+                            </div>
+                            <div class="speaker-topics">
+                                <span class="topic-tag">Governance</span>
+                                <span class="topic-tag">Economy</span>
+                                <span class="topic-tag">Leadership</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Speaker Card 2 -->
+            <div class="speaker-wrapper" data-motion="fade-up" data-delay="0.4">
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="assets/images/speakers/gbenga-agboola.jpg" alt="Speaker" class="img-fluid">
+                        <div class="speaker-content">
+                            <div class="speaker-details">
+                                <h4 class="speaker-name">Gbenga Agboola</h4>
+                                <p class="speaker-role">CEO, Tesla & SpaceX</p>
+                                <p class="speaker-bio">Pioneering entrepreneur revolutionizing electric vehicles, space exploration, and sustainable energy solutions globally.</p>
+                                <div class="speaker-social">
+                                    <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+                                    <a href="#" class="social-link"><i class="bi bi-twitter-x"></i></a>
+                                </div>
+                            </div>
+                            <div class="speaker-topics">
+                                <span class="topic-tag">Innovation</span>
+                                <span class="topic-tag">Technology</span>
+                                <span class="topic-tag">Sustainability</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Speaker Card 3 -->
+            <div class="speaker-wrapper" data-motion="fade-up" data-delay="0.5">
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="assets/images/speakers/gbenga-agboola.jpg" alt="Speaker" class="img-fluid">
+                        <div class="speaker-content">
+                            <div class="speaker-details">
+                                <h4 class="speaker-name">David Gilmore</h4>
+                                <p class="speaker-role">Tech Entrepreneur</p>
+                                <p class="speaker-bio">Serial entrepreneur with a focus on emerging technologies and digital transformation in African markets.</p>
+                                <div class="speaker-social">
+                                    <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+                                    <a href="#" class="social-link"><i class="bi bi-twitter-x"></i></a>
+                                </div>
+                            </div>
+                            <div class="speaker-topics">
+                                <span class="topic-tag">Startups</span>
+                                <span class="topic-tag">Digital</span>
+                                <span class="topic-tag">Growth</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Speaker Card 4 -->
+            <div class="speaker-wrapper" data-motion="fade-up" data-delay="0.6">
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="assets/images/speakers/gbenga-agboola.jpg" alt="Speaker" class="img-fluid">
+                        <div class="speaker-content">
+                            <div class="speaker-details">
+                                <h4 class="speaker-name">Sarah Johnson</h4>
+                                <p class="speaker-role">Innovation Director</p>
+                                <p class="speaker-bio">Leading innovation strategies and digital transformation initiatives across multiple industries in Africa.</p>
+                                <div class="speaker-social">
+                                    <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+                                    <a href="#" class="social-link"><i class="bi bi-twitter-x"></i></a>
+                                </div>
+                            </div>
+                            <div class="speaker-topics">
+                                <span class="topic-tag">Innovation</span>
+                                <span class="topic-tag">Strategy</span>
+                                <span class="topic-tag">Digital</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="drum-border"></div>
+</section>
+
+    <!-- Schedule Section -->
+<section id="schedule" class="schedule-section">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="row mb-5">
+            <div class="col-lg-6">
+                <h1 class="section-title mb-3">Schedule</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Left Column - Topics -->
+            <div class="col-lg-4">
+                <!-- Topic 1 -->
+                <div class="topic-card mb-4" style="background: var(--alternate); border-radius: 20px; padding: 2rem;">
+                    <h6 class="text-white mb-2">Panel 1</h6>
+                    <h3 class="text-white">Africa's Digital Economy</h3>
+                </div>
+
+                <!-- Topic 2 -->
+                <div class="topic-card mb-4" style="background: var(--white); border-radius: 20px; padding: 2rem;">
+                    <h6 class="text-primary mb-2">Panel 2</h6>
+                    <h3 class="text-primary">Cross-Border Trade</h3>
+                </div>
+
+                <!-- Topic 3 -->
+                <div class="topic-card mb-4" style="background: var(--white); border-radius: 20px; padding: 2rem;">
+                    <h6 class="text-primary mb-2">Panel 3</h6>
+                    <h3 class="text-primary">Energy & Sustainability</h3>
+                </div>
+
+                <!-- Conference Ticket Card -->
+                <div class="conference-ticket">
+                    <div class="ticket-content">
+                        <h5>APRIL 11</h5>
+                        <h2>2025 DABO Conference</h2>
+                        <div class="d-flex align-items-center mt-4">
+                            <a href="https://lu.ma/l4dmomlt" target="_blank" class="btn btn-light">Get Tickets</a>
+                            <span class="ms-3">Registration is free</span>
+                        </div>
+                    </div>
+                    <div class="qr-code position-absolute" style="top: 2rem; right: 2rem;">
+                        <img src="assets/images/qr-code.png" alt="QR Code" width="80">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column - Schedule Timeline -->
+            <div class="col-lg-8">
+                <div class="schedule-timeline">
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-time">
+                            9:30 - 10:30 am
+                        </div>
+                        <div class="timeline-content">
+                            <h4>Opening party & early registration</h4>
+                            <p>April 11th</p>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-time">
+                            9:30 - 10:30 am
+                        </div>
+                        <div class="timeline-content">
+                            <h4>Innovations in Africa's growing tech ecosystem</h4>
+                            <p>Pellentesque rhoncus viverra vestibulum, purus purus quisque quisque sed. Cras vestibulum facilisis dictumst consequat.</p>
+                            <div class="speaker-info">
+                                <div>
+                                    <span>Speakers:</span>
+                                    <div class="speaker-role">Gbenga Agboola, Christian Idiodi, Adetayo Aina</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-time">
+                            9:30 - 10:30 am
+                        </div>
+                        <div class="timeline-content">
+                            <h4>Advancements in fintech, health-tech, e-commerce, mobile tech</h4>
+                            <p>Pellentesque rhoncus viverra vestibulum, purus purus quisque quisque sed. Cras vestibulum facilisis dictumst consequat.</p>
+                            <div class="speaker-info">
+                                <div>
+                                    <span>Speakers:</span>
+                                    <div class="speaker-role">Gbenga Agboola, Christian Idiodi, Adetayo Aina</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 4 -->
+                    <div class="timeline-item">
+                        <div class="timeline-time">
+                            9:30 - 10:30 am
+                        </div>
+                        <div class="timeline-content">
+                            <h4>The evolving landscape of digital infrastructure.</h4>
+                            <p>Pellentesque rhoncus viverra vestibulum, purus purus quisque quisque sed. Cras vestibulum facilisis dictumst consequat.</p>
+                            <div class="speaker-info">
+                                <div>
+                                    <span>Speakers:</span>
+                                    <div class="speaker-role">Gbenga Agboola, Christian Idiodi, Adetayo Aina</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+   <!-- Sponsors Section -->
+<section id="sponsors" class="sponsors-section">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="row mb-5">
+            <div class="col-lg-6">
+                <h2 class="section-title mb-3">Sponsors</h2>
+                <p class="section-subtitle fw-bold">2025 DABO Conference Sponsors</p>
+            </div>
+        </div>
+
+        <!-- Sponsors Grid -->
+        <div class="sponsors-grid">
+            <!-- Tier 1 Sponsors -->
+            <div class="row g-4 mb-5">
+                <div class="col-12">
+                    <h3 class="tier-title">Internal Sponsors</h3>
+                </div>
+                <div class="col-md-4" data-motion="fade-up" data-delay="0">
+                    <div class="sponsor-card tier-1">
+                        <img src="assets/images/sponsors/emirates.png" alt="OSA" class="sponsor-logo">
+                    </div>
+                </div>
+                <div class="col-md-4" data-motion="fade-up" data-delay="0.1">
+                    <div class="sponsor-card tier-1">
+                        <img src="assets/images/sponsors/aseda.png" alt=" Dean’s Office" class="sponsor-logo">
+                    </div>
+                </div>
+                <div class="col-md-4" data-motion="fade-up" data-delay="0.2">
+                    <div class="sponsor-card tier-1">
+                        <img src="assets/images/sponsors/noriety.png" alt="DEI office" class="sponsor-logo">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tier 2 Sponsors -->
+            <div class="row g-4 mb-5">
+                <div class="col-12">
+                    <h3 class="tier-title">External Sponsors</h3>
+                </div>
+                <div class="col-md-3" data-motion="fade-up" data-delay="0.3">
+                    <div class="sponsor-card tier-2">
+                        <img src="assets/images/sponsors/voya.png" alt="McKinsey" class="sponsor-logo">
+                    </div>
+                </div>
+                <div class="col-md-3" data-motion="fade-up" data-delay="0.4">
+                    <div class="sponsor-card tier-2">
+                        <img src="assets/images/sponsors/highmark.png" alt="Flutterwave" class="sponsor-logo">
+                    </div>
+                </div>
+                <div class="col-md-3" data-motion="fade-up" data-delay="0.5">
+                    <div class="sponsor-card tier-2">
+                        <img src="assets/images/sponsors/adunro.png" alt="Wharf" class="sponsor-logo">
+                    </div>
+                </div>
+                <div class="col-md-3" data-motion="fade-up" data-delay="0.6">
+                    <div class="sponsor-card tier-2">
+                        <img src="assets/images/sponsors/bogeman.png" alt="Amex" class="sponsor-logo">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Sponsor Modal -->
+    <div class="modal fade" id="sponsorModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sponsorship Opportunities</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="sponsor-form">
+                        <div class="mb-3">
+                            <label class="form-label">Company Name</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Contact Person</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Sponsorship Tier Interest</label>
+                            <select class="form-select">
+                                <option>Diamond Sponsor</option>
+                                <option>Gold Sponsor</option>
+                                <option>Silver Sponsor</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit Request</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+    <div class="footer-drum-border"></div>
+    <!-- Main Footer -->
+    <div class="footer-main">
+        <div class="container">
+            <div class="row gy-4">
+                <!-- Logo & About -->
+                <div class="col-lg-4">
+                    <div class="footer-info">
+                        <img src="assets/images/icons/dabo-logo.png" alt="DABO Logo" class="footer-logo mb-4">
+                        <p class="footer-description">
+                            The Darden African Business Organization (DABO) brings together industry leaders and innovators to explore technology's transformative role in African business growth.
+                        </p>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/darden-african-business-organization/" class="social-link"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://www.instagram.com/dardenafricans/" class="social-link"><i class="bi bi-instagram"></i></a>
+                            <a href="https://www.facebook.com/dardenafricanbus/" class="social-link"><i class="bi bi-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#speakers">Speakers</a></li>
+                            <li><a href="#schedule">Schedule</a></li>
+                            <li><a href="#sponsors">Sponsors</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-contact">
+                        <h4>Contact Info</h4>
+                        <ul class="list-unstyled">
+                            <li>
+                                <i class="bi bi-geo-alt"></i>
+                                <span>100 Darden Blvd, Charlottesville, VA 22903</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-envelope"></i>
+                                <a href="mailto:dabo@darden.virginia.edu">dabo@darden.virginia.edu</a>
+                            </li>
+                            <!-- <li>
+                                <i class="bi bi-telephone"></i>
+                                <a href="tel:+1234567890">+1 (234) 567-890</a>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Get Tickets -->
+                <div class="col-lg-3">
+                    <div class="footer-newsletter">
+                        <h4>Get Tickets</h4>
+                        <p>2025 DABO conference: leveraging technology as a catalyst for growth.</p>
+                        <a href="#" class="btn btn-lg btn-light">
+                            Get your tickets
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="copyright mb-0">
+                        © 2025 DABO Conference. All rights reserved.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="footer-bottom-links list-inline mb-0 text-md-end">
+                        <li class="list-inline-item">
+                            <a href="https://ugochukwu.xyz" target="_blank">Designed with ❤️ by Ugochukwu</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+</footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Motion.dev for animations -->
+    <script src="https://cdn.jsdelivr.net/npm/motion@latest/dist/motion.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="js/video-modal.js"></script>
+
+</body>
+</html>
