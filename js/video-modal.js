@@ -1,5 +1,5 @@
 // Video URL (replace with your actual video URL)
-const videoUrl = "https://www.youtube.com/embed/lHXsZIHSrv8";
+const videoUrl = "https://youtube.com/embed/LxcUBOGO4fo";
 
 // Get the modal element
 const videoModal = document.getElementById('aboutVideoModal');
