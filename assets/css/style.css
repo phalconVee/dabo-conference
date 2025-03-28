@@ -1269,8 +1269,8 @@ section {
 .sponsor-card {
     background-color: var(--white);
     border-radius: 12px;
-    padding: 2rem;
-    height: 150px;
+    padding: 0.2rem;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
